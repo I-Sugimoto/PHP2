@@ -1,0 +1,33 @@
+body{
+	margin:24px 10px;
+	font-family:'メイリオ','Hiragino Kaku Gothic Pro','sans-seif';
+    color: #666;
+    padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	color: #666;
+	background: #F0F8F1;
+}
+
+ul {
+	padding:0;
+	margin:0
+}
+
+ul li {
+	list-style:none;
+	margin:0px;
+	padding:10px;
+	font-size: 18px;
+}
+ul li span {
+	width: 150px;
+	margin:0px;
+	display: inline-block;
+	float:left;
+}
+
+ul li input[type="submit"], input[type="button"] {
+	cursor:pointer;     
+	
+}	
