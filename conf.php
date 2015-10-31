@@ -1,7 +1,7 @@
 <?php
    session_start();
 //セッションのデータを表示用変数に格納
-   $view_name = $_SESSION ["name"];
+   $view_name = $_SESSION["name"];
    $view_title = $_SESSION["title"];
    $view_mail = $_SESSION["mail"];
    $view_body = $_SESSION["body"];
@@ -11,7 +11,7 @@
    $to = "ai@resvo-inc.com";
    $title = $_SESSION["title"];
    $body = $_SESSION["body"];
-   $from = $_SESSION ["name"];
+   $from = $_SESSION["name"];
 
    mb_send_mail($to, $title, $body, $from);
   // date_default_timezone_set('Asia/Tokyo');
