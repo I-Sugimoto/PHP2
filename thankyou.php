@@ -1,9 +1,9 @@
 <?php
  session_start();
- $name = $_SESSION ["name"];
- $title = $_SESSION ["title"];
- $mail = $_SESSION ["mail"];
- $body = $_SESSION ["body"];
+ $name = $_SESSION["name"];
+ $title = $_SESSION["title"];
+ $mail = $_SESSION["mail"];
+ $body = $_SESSION["body"];
 ?>
 
 <!DOCTYPE html>
